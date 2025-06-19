@@ -1,0 +1,19 @@
+@import "frappe-gantt/dist/frappe-gantt.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@keyframes swing {
+    20% { transform: rotate(15deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(5deg); }
+    80% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.animate-swing {
+    animation: swing 1s ease-in-out;
+}
+
+
+
